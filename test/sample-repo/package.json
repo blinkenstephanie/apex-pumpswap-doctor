@@ -1,0 +1,8 @@
+{
+  "name": "sample-broken-pumpswap-app",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@pump-fun/pump-swap-sdk": "0.0.1"
+  }
+}
