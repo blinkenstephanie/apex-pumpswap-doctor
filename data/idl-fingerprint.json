@@ -1,0 +1,15 @@
+  "sellAccounts": [
+    "pool", "user", "global_config", "base_mint", "quote_mint",
+    "user_base_token_account", "user_quote_token_account", "pool_base_token_account",
+    "pool_quote_token_account", "protocol_fee_recipient", "protocol_fee_recipient_token_account",
+    "base_token_program", "quote_token_program", "system_program", "associated_token_program",
+    "event_authority", "program", "coin_creator_vault_ata", "coin_creator_vault_authority",
+    "fee_config", "fee_program"
+  ],
+  "accountTypes": [
+    "BondingCurve", "FeeConfig", "GlobalConfig", "GlobalVolumeAccumulator",
+    "Pool", "SharingConfig", "UserVolumeAccumulator"
+  ],
+  "globalConfigPda": "ADyA8hdefvWN2dbGGWFotbzWxrAvLW83WG6QCVXvJKqw",
+  "poolSeeds": ["pool", "index", "creator", "baseMint", "quoteMint"]
+}
