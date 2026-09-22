@@ -1,0 +1,9 @@
+{
+  "name": "error-6023-overflow",
+  "description": "Recorded/unsigned fixture: PumpSwap custom program error 6023 (Overflow). No private keys; logs only.",
+  "signature": "fixture-6023-unsigned-no-network",
+  "programId": "pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA",
+  "logText": "Program pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA invoke [1]\nProgram log: Instruction: Buy\nProgram log: AnchorError occurred. Error Code: Overflow. Error Number: 6023. Error Message: Overflow.\nProgram pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA consumed 42100 of 200000 compute units\nProgram pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA failed: custom program error: 0x1787",
+  "expectedErrorKey": "6023",
+  "expectedErrorName": "Overflow"
+}
