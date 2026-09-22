@@ -1,0 +1,29 @@
+# Example: run APEX PumpSwap Doctor on every push / PR.
+# Copy into .github/workflows/apex-pumpswap-doctor.yml in a consumer repo.
+#
+# Never provide a seed phrase/private key. This Action is read-only and
+# accepts no secret inputs.
+
+name: APEX PumpSwap Doctor
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  doctor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: PumpSwap / Pump.fun repo diagnostics
+        # Pin to a tag or commit SHA in real use, e.g. @v0.1.0
+        uses: blinkenstephanie/apex-pumpswap-doctor@main
+        with:
+          path: "."
+          fail-on-error: "true"
