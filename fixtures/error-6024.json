@@ -1,0 +1,9 @@
+{
+  "name": "error-6024-truncation",
+  "description": "Recorded/unsigned fixture: PumpSwap custom program error 6024 (Truncation). No private keys; logs only.",
+  "signature": "fixture-6024-unsigned-no-network",
+  "programId": "pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA",
+  "logText": "Program pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA invoke [1]\nProgram log: Instruction: Sell\nProgram log: AnchorError thrown in programs/pump-amm/src/lib.rs:0. Error Code: Truncation. Error Number: 6024. Error Message: Truncation.\nProgram pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA failed: custom program error: 6024",
+  "expectedErrorKey": "6024",
+  "expectedErrorName": "Truncation"
+}

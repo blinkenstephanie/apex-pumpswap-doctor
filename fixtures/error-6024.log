@@ -1,0 +1,4 @@
+Program pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA invoke [1]
+Program log: Instruction: Sell
+Program log: AnchorError thrown in programs/pump-amm/src/lib.rs:0. Error Code: Truncation. Error Number: 6024. Error Message: Truncation.
+Program pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA failed: custom program error: 6024

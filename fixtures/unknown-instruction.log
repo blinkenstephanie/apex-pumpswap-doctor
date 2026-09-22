@@ -1,0 +1,4 @@
+Program pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA invoke [1]
+Program log: Error: unknown instruction
+Program log: Failed to deserialize instruction data
+Program pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA failed: Invalid instruction data

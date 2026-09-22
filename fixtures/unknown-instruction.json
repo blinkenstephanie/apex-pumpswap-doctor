@@ -1,0 +1,9 @@
+{
+  "name": "unknown-instruction",
+  "description": "Recorded/unsigned fixture: unknown instruction / deserialize failure (stale IDL discriminator). No private keys.",
+  "signature": "fixture-unknown-ix-unsigned-no-network",
+  "programId": "pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA",
+  "logText": "Program pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA invoke [1]\nProgram log: Error: unknown instruction\nProgram log: Failed to deserialize instruction data\nProgram pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA failed: Invalid instruction data",
+  "expectedErrorKey": "unknown_instruction",
+  "expectedErrorName": "UnknownInstruction"
+}

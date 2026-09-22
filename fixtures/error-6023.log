@@ -1,0 +1,5 @@
+Program pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA invoke [1]
+Program log: Instruction: Buy
+Program log: AnchorError occurred. Error Code: Overflow. Error Number: 6023. Error Message: Overflow.
+Program pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA consumed 42100 of 200000 compute units
+Program pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA failed: custom program error: 0x1787
