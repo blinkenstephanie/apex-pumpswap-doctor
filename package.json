@@ -1,0 +1,54 @@
+{
+  "name": "apex-pumpswap-doctor",
+  "version": "0.1.0",
+  "description": "Read-only PumpSwap / Pump.fun launch diagnostic CLI — program ID, SDK/IDL hygiene, 6023/6024/unknown-instruction mapping. Never asks for keys.",
+  "license": "MIT",
+  "author": "APEX (@suntzuson)",
+  "homepage": "https://apexlauncher.fun",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blinkenstephanie/apex-solana-pumpswap-launcher"
+  },
+  "keywords": [
+    "pumpswap",
+    "pump-fun",
+    "solana",
+    "diagnostic",
+    "preflight",
+    "apex"
+  ],
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "bin": {
+    "apex-pumpswap-doctor": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "data",
+    "fixtures",
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepare": "npm run build",
+    "test": "npm run build && node --test test/*.test.mjs",
+    "cli": "node dist/cli.js",
+    "prepack": "npm run build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "20.17.30",
+    "typescript": "5.8.3"
+  }
+}

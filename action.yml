@@ -1,0 +1,30 @@
+# Never provide a seed phrase/private key. No telemetry. No secret inputs.
+name: "APEX PumpSwap Doctor"
+description: >-
+  Read-only PumpSwap / Pump.fun repo diagnostics (SDK, IDL, program ID,
+  account layout, ESM/CJS). Emits GitHub annotations and a job summary.
+  Never asks for keys; never phones home.
+author: "APEX (@suntzuson)"
+
+# Callers should grant only read access to contents (example workflow sets this).
+# Documented here so consumers copy the same least-privilege default.
+permissions:
+  contents: read
+
+branding:
+  icon: activity
+  color: purple
+
+inputs:
+  path:
+    description: "Directory to scan (relative to the consumer workspace root)"
+    required: false
+    default: "."
+  fail-on-error:
+    description: "Exit non-zero when any error-severity finding is present"
+    required: false
+    default: "true"
+
+runs:
+  using: "node20"
+  main: "action/run.cjs"
